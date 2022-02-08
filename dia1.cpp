@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){
 	string palabra;
+	int numero;
 	int numero1 = 1;
-	int numero2 = 2, numero3 = 3; 
+	int numero2 = 2, numero3 = 3;
 	const int NUMERO = 0;
 	double decimal;
 	char letra;
@@ -23,7 +24,6 @@ int main(){
 	cout << numero2 << endl;
 	numero3 = 5.4;
 	cout << numero3 << endl;
-
 	decimal = 5.4;
 	cout << decimal << endl;
 	decimal = 5;
@@ -45,7 +45,7 @@ int main(){
 	//letraExtra = 355;
 	//cout << letraExtra << endl;
 	*/
-	
+
 	/*//Jugamos con booleano
 	booleano = true;
 	cout << booleano << endl;
@@ -74,7 +74,7 @@ int main(){
 	cout << decimal << endl;
 	numero1 = 4 % 5;
 	cout << numero1 << endl;
-	//numero1 = 4 ** 5; 
+	//numero1 = 4 ** 5;
 	//cout << numero1 << endl;
 	numero1 += numero1;
 	cout << numero1 << endl;
